@@ -189,22 +189,22 @@ nav a:hover {
   }
 
   .chapterignore {
-    padding: 18px 28px;
+    padding: 18px 22px;
     font-size: 12px;
   }
 
   .chapterignore:hover {
-    padding: 18px 28px;
+    padding: 18px 22px;
     font-size: 12px;
   }
 
   .chapteract {
-    padding: 18px 28px;
+    padding: 18px 22px;
     font-size: 12px;
   }
 
   .chapteract:hover {
-    padding: 18px 28px;
+    padding: 18px 22px;
     font-size: 12px;
   }
 }
