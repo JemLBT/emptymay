@@ -1,6 +1,6 @@
 body {
   background: #fefffa;
-  text-align: left;
+  text-align: center;
 }
 
 h1 {
@@ -14,7 +14,7 @@ h1 {
   font-weight: 400;
   font-style: normal;
   margin: 0 auto;
-  letter-spacing: 10px;
+  letter-spacing: 14px;
 }
 
 h2 {
@@ -39,12 +39,12 @@ nav {
   font-family: "EB Garamond", serif;
   font-weight: lighter;
   border: solid, #171616;
-  border-width: 2px;
+  border-width: 1px;
 }
 
 nav ul {
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   list-style: none;
   gap: 50px;
   letter-spacing: 2px;
