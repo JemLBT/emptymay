@@ -1,28 +1,33 @@
 body {
-  background-color: #0b0b0b;
-  color: #f1f1f1;
+  background: #fefffa;
   text-align: center;
 }
 
+.main {
+  margin: 0 auto;
+  text-align: center;
+  max-width: 800px;
+}
 h1 {
   font-style: normal;
-  text-shadow: 3px 3px 2px #fefffa;
-  -webkit-text-fill-color: transparent;
-  -webkit-text-stroke-width: 2px;
-  -webkit-text-stroke-color: #171616;
-  font-size: 174px;
-  font-family: "Bangers", system-ui;
+  color: #171616;
+  font-size: 100px;
+  font-family: "Archivo Black", sans-serif;
   font-weight: 400;
   font-style: normal;
-  margin: 0 auto;
-  letter-spacing: 14px;
 }
 
 h2 {
   font-family: "EB Garamond", serif;
-  font-size: 22px;
+  font-size: 26px;
   color: #171617;
   font-weight: lighter;
+}
+h3 {
+  font-family: "EB Garamond", serif;
+  font-size: 18px;
+  color: #171617;
+  font-weight: 100;
 }
 
 p {
@@ -62,11 +67,11 @@ nav a:hover {
   color: #747474;
 }
 
-.chapterone {
-  background-color: rgba(255, 0, 60, 0.884);
+.chapterignore {
+  background-color: rgba(196, 194, 224, 0.824);
   border: none;
   color: #fefffa;
-  padding: 15px 32px;
+  padding: 32px 64px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -77,11 +82,42 @@ nav a:hover {
   transform: translateY(-2px);
 }
 
-.chapterone:hover {
-  background-color: rgba(255, 0, 60, 0.7);
+.chapterignore:hover {
+  border: solid, #171616;
+  background-color: #fefffa;
+  color: #171616;
+  border-width: 1px;
+  padding: 32px 64px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s ease;
+  transform: translateY(-2px);
+}
+
+.chapteract {
+  background-color: rgba(59, 109, 120, 0.884);
   border: none;
   color: #fefffa;
-  padding: 15px 32px;
+  padding: 32px 64px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 10px;
+  transition: 0.3s ease;
+  transform: translateY(-2px);
+}
+
+.chapteract:hover {
+  border: solid, #171616;
+  background-color: #fefffa;
+  color: #171616;
+  border-width: 1px;
+  padding: 32px 64px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
@@ -94,16 +130,11 @@ nav a:hover {
 @media (max-width: 576px) {
   h1 {
     font-style: normal;
-    text-shadow: 3px 3px 2px #fefffa;
-    -webkit-text-fill-color: transparent;
-    -webkit-text-stroke-width: 2px;
-    -webkit-text-stroke-color: #171616;
-    font-size: 90px;
-    font-family: "Bangers", system-ui;
+    color: #171616;
+    font-size: 62px;
+    font-family: "Archivo Black", sans-serif;
     font-weight: 300;
     font-style: normal;
-    letter-spacing: 4px;
-    margin-top: 60px;
   }
 
   h2 {
@@ -111,7 +142,12 @@ nav a:hover {
     font-size: 18px;
     color: #171617;
     font-weight: 300;
-    margin-bottom: 100px;
+  }
+
+  .main {
+    margin: 0 auto;
+    text-align: center;
+    max-width: 400px;
   }
 
   p {
@@ -136,9 +172,9 @@ nav a:hover {
     display: flex;
     justify-content: center;
     list-style: none;
-    gap: 30px;
+    gap: 18px;
     letter-spacing: 1px;
-    font-size: 14px;
+    font-size: 12px;
   }
 
   nav a {
@@ -152,32 +188,23 @@ nav a:hover {
     color: #747474;
   }
 
-  .chapterone {
-    background-color: rgba(255, 0, 60, 0.884);
-    border: none;
-    color: #fefffa;
-    padding: 32px 64px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 18px;
-    cursor: pointer;
-    border-radius: 10px;
-    transition: 0.3s ease;
-    transform: translateY(-2px);
+  .chapterignore {
+    padding: 18px 28px;
+    font-size: 12px;
   }
 
-  .chapterone:hover {
-    background-color: #fefffa;
-    border: none;
-    color: rgba(255, 0, 60, 0.7);
-    padding: 32px 64px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 18px;
-    cursor: pointer;
-    transition: 0.3s ease;
-    transform: translateY(-2px);
+  .chapterignore:hover {
+    padding: 18px 28px;
+    font-size: 12px;
+  }
+
+  .chapteract {
+    padding: 18px 28px;
+    font-size: 12px;
+  }
+
+  .chapteract:hover {
+    padding: 18px 28px;
+    font-size: 12px;
   }
 }
