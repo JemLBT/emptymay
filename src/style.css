@@ -107,6 +107,7 @@ nav a:hover {
     color: #171617;
     font-weight: lighter;
     margin-bottom: 100px;
+    width: 200px;
   }
 
   p {
