@@ -60,3 +60,113 @@ nav a {
 nav a:hover {
   color: #747474;
 }
+
+.chapterone {
+  background-color: rgba(255, 0, 60, 0.884);
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.chapterone:hover {
+  background-color: rgba(255, 0, 60, 0.7);
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+@media (max-width: 576px) {
+  h1 {
+    font-style: normal;
+    text-shadow: 3px 3px 2px #fefffa;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #171616;
+    font-size: 80px;
+    font-family: "Bangers", system-ui;
+    font-weight: 300;
+    font-style: normal;
+    margin: 0 auto;
+    letter-spacing: 4px;
+  }
+
+  h2 {
+    font-family: "EB Garamond", serif;
+    font-size: 18px;
+    color: #171617;
+    font-weight: lighter;
+  }
+
+  p {
+    font-family: "EB Garamond", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    color: #171616;
+    font-size: 12px;
+  }
+
+  nav {
+    background-color: #fefffa;
+    padding: 20px;
+    font-family: "EB Garamond", serif;
+    font-weight: lighter;
+    border: solid, #171616;
+    border-width: 1px;
+  }
+
+  nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 50px;
+    letter-spacing: 2px;
+  }
+
+  nav a {
+    color: #171616;
+    text-decoration: none;
+    font-weight: 100;
+    transition: 0.3s;
+  }
+
+  nav a:hover {
+    color: #747474;
+  }
+
+  .chapterone {
+    background-color: rgba(255, 0, 60, 0.884);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 10px;
+  }
+
+  .chapterone:hover {
+    background-color: rgba(255, 0, 60, 0.7);
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+  }
+}
