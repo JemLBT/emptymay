@@ -93,19 +93,20 @@ nav a:hover {
     -webkit-text-fill-color: transparent;
     -webkit-text-stroke-width: 2px;
     -webkit-text-stroke-color: #171616;
-    font-size: 80px;
+    font-size: 70px;
     font-family: "Bangers", system-ui;
     font-weight: 300;
     font-style: normal;
-    margin: 0 auto;
     letter-spacing: 4px;
+    margin-top: 40px;
   }
 
   h2 {
     font-family: "EB Garamond", serif;
-    font-size: 18px;
+    font-size: 14px;
     color: #171617;
     font-weight: lighter;
+    margin-bottom: 100px;
   }
 
   p {
@@ -119,7 +120,7 @@ nav a:hover {
 
   nav {
     background-color: #fefffa;
-    padding: 20px;
+    padding: 14px;
     font-family: "EB Garamond", serif;
     font-weight: lighter;
     border: solid, #171616;
@@ -130,8 +131,9 @@ nav a:hover {
     display: flex;
     justify-content: center;
     list-style: none;
-    gap: 50px;
-    letter-spacing: 2px;
+    gap: 30px;
+    letter-spacing: 1px;
+    font-size: 14px;
   }
 
   nav a {
