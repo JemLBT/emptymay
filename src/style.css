@@ -1,13 +1,30 @@
 body {
   background: #fefffa;
   text-align: center;
+  opacity: 0.7;
 }
 
 .main {
   margin: 0 auto;
   text-align: center;
-  max-width: 800px;
+  max-width: 620px;
 }
+.case-id {
+  font-family: "Special Elite", system-ui;
+  color: #670000;
+}
+
+.case-details {
+  font-family: "Special Elite", system-ui;
+  font-size: 10px;
+  line-height: 14px;
+}
+
+.decision-title {
+  font-family: "Special Elite", system-ui;
+  color: #670000;
+}
+
 h1 {
   font-style: normal;
   color: #171616;
@@ -15,6 +32,10 @@ h1 {
   font-family: "Archivo Black", sans-serif;
   font-weight: 400;
   font-style: normal;
+  line-height: 0.9;
+  margin: 0 auto;
+  margin-top: 40px;
+  letter-spacing: -2px;
 }
 
 h2 {
@@ -41,7 +62,7 @@ p {
 
 nav {
   background-color: #fefffa;
-  padding: 20px;
+  padding: 3px;
   font-family: "EB Garamond", serif;
   font-weight: lighter;
   border: solid, #171616;
@@ -64,11 +85,12 @@ nav a {
 }
 
 nav a:hover {
-  color: #747474;
+  color: #3b0303;
+  cursor: pointer;
 }
 
-.chapterignore {
-  background-color: rgba(196, 194, 224, 0.824);
+.chapteroptionone {
+  background-color: rgba(13, 13, 13, 0.824);
   border: none;
   color: #fefffa;
   padding: 32px 64px;
@@ -82,10 +104,9 @@ nav a:hover {
   transform: translateY(-2px);
 }
 
-.chapterignore:hover {
-  border: solid, #171616;
-  background-color: #fefffa;
-  color: #171616;
+.chapteroptionone:hover {
+  color: #fefffa;
+  background-color: #670000;
   border-width: 1px;
   padding: 32px 64px;
   text-align: center;
@@ -97,10 +118,11 @@ nav a:hover {
   transform: translateY(-2px);
 }
 
-.chapteract {
-  background-color: rgba(59, 109, 120, 0.884);
-  border: none;
-  color: #fefffa;
+.chapteroptiontwo {
+  background-color: #fefffa;
+  border: solid, #171616;
+  border-width: 1px;
+  color: #171616;
   padding: 32px 64px;
   text-align: center;
   text-decoration: none;
@@ -112,10 +134,9 @@ nav a:hover {
   transform: translateY(-2px);
 }
 
-.chapteract:hover {
-  border: solid, #171616;
-  background-color: #fefffa;
-  color: #171616;
+.chapteroptiontwo:hover {
+  color: #fefffa;
+  background-color: #670000;
   border-width: 1px;
   padding: 32px 64px;
   text-align: center;
@@ -188,22 +209,22 @@ nav a:hover {
     color: #747474;
   }
 
-  .chapterignore {
+  .chapteroptionone {
     padding: 18px 22px;
     font-size: 12px;
   }
 
-  .chapterignore:hover {
+  .chapteroptionone:hover {
     padding: 18px 22px;
     font-size: 12px;
   }
 
-  .chapteract {
+  .chapteroptiontwo {
     padding: 18px 22px;
     font-size: 12px;
   }
 
-  .chapteract:hover {
+  .chapteroptiontwo:hover {
     padding: 18px 22px;
     font-size: 12px;
   }
