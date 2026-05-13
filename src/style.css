@@ -214,6 +214,8 @@ nav a:hover {
     gap: 18px;
     letter-spacing: 1px;
     font-size: 12px;
+    padding: 0;
+    margin: 0;
   }
 
   nav a {
