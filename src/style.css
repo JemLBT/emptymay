@@ -25,6 +25,12 @@ body {
   color: #670000;
 }
 
+.decision-making-area {
+  max-width: 820px;
+  margin: 0 auto;
+  justify-content: center;
+  display: block;
+}
 h1 {
   font-style: normal;
   color: #171616;
@@ -202,7 +208,7 @@ nav a:hover {
     padding: 14px;
     font-family: "EB Garamond", serif;
     font-weight: lighter;
-    border: 1px solid #171616;
+    border: 1px solid #383737;
     margin: 0 auto;
     display: block;
     justify-content: center;
@@ -231,24 +237,24 @@ nav a:hover {
   }
 
   .chapteroptionone {
-    padding: 18px 22px;
+    padding: 16px 20px;
     font-size: 12px;
   }
 
   .chapteroptionone:hover {
-    padding: 18px 22px;
+    padding: 16px 20px;
     font-size: 12px;
   }
 
   .chapteroptiontwo {
-    padding: 18px 22px;
+    padding: 16px 20px;
     font-size: 12px;
     background-color: #fefffa;
     border: 1px solid #171616;
   }
 
   .chapteroptiontwo:hover {
-    padding: 18px 22px;
+    padding: 16px 20px;
     font-size: 12px;
   }
 }
