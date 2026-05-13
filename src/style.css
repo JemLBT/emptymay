@@ -57,6 +57,10 @@ h3 {
   font-weight: 100;
 }
 
+h3 strong {
+  font-weight: 700;
+}
+
 p {
   font-family: "EB Garamond", serif;
   font-optical-sizing: auto;
@@ -169,6 +173,10 @@ nav a:hover {
     font-size: 18px;
     color: #171617;
     font-weight: 300;
+  }
+
+  h3 strong {
+    font-weight: 700;
   }
 
   .main {
