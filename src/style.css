@@ -109,7 +109,6 @@ nav a:hover {
 .chapteroptionone:hover {
   color: #fefffa;
   background-color: #670000;
-  border-width: 1px;
   padding: 32px 64px;
   text-align: center;
   text-decoration: none;
@@ -138,7 +137,6 @@ nav a:hover {
 .chapteroptiontwo:hover {
   color: #fefffa;
   background-color: #670000;
-  border-width: 1px;
   padding: 32px 64px;
   text-align: center;
   text-decoration: none;
@@ -203,10 +201,10 @@ nav a:hover {
     padding: 14px;
     font-family: "EB Garamond", serif;
     font-weight: lighter;
-    border: solid, #171616;
-    border-width: 2px;
+    border: 1px solid #171616;
     margin: 0 auto;
-    text-align: center;
+    display: block:
+    justify-content: center;
   }
 
   nav ul {
