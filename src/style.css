@@ -206,7 +206,7 @@ nav a:hover {
     font-family: "EB Garamond", serif;
     font-weight: lighter;
     border: solid, #171616;
-    border-width: 1px;
+    border-width: 2px;
     margin: 0 auto;
     text-align: center;
   }
@@ -246,7 +246,7 @@ nav a:hover {
     font-size: 12px;
     background-color: #fefffa;
     border: solid, #171616;
-    border-width: 1px;
+    border-width: 2px;
   }
 
   .chapteroptiontwo:hover {
